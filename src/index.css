@@ -9,7 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f7f7f7;
+ background-image: url("1920x1157-5004795-breaking-bad-tv-shows-artwork-artist-digital-art-artstation-hd.jpg") ;
+;
+ background-repeat: no-repeat;
   padding: 50px;
 }
 
@@ -20,18 +22,46 @@ code {
 
 .App {
   max-width: 900px;
-  margin: 0 auto;
-  background-color: #ffffff;
+  margin: 5rem auto;
+  background-color: #b0d63223;
   padding: 20px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border-radius: 3px;
+  border-radius: 30px;
 }
 
+h1{
+  color: #0490d6;
+}
+
+h2{
+  color: #0490d6;
+}
+
+label{
+  color: #0490d6;
+  font-size: large;
+  font-weight: bolder;
+}
+th{
+  color: #0490d6;
+}
+
+td{
+  color: #000000;
+  font-size: large;
+  font-weight: bolder;
+}
+input{
+  background-color: #0490d6;
+  font-size: large;
+  font-weight: bolder;
+}
 .App h1 {
-  background-color: #f9f9f9;
+  background-color: #2bdb9569;
   text-align: center;
   padding: 20px;
   margin: 0;
+  border-radius: 20px;
 }
 
 .wrapper {
@@ -39,10 +69,12 @@ code {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px 0;
+  
 }
 
 .left-side {
   width: 30%;
+  
 }
 
 .right-side {
@@ -53,15 +85,17 @@ code {
 .right-side table {
   width: 100%;
   border-collapse: collapse;
+  
 
 }
 
 
 .right-side table th,
 .right-side table td {
-  border: 1px solid #cccccc;
+  border: 1px solid #2bdb9569;
   padding: 10px;
   text-align: center;
+  
 }
 
 .right-side table td button {
@@ -69,7 +103,7 @@ code {
 }
 
 .right-side table th {
-  background-color: #F9FAFB;
+  background-color: 2bdb9569;
   font-size: 20px;
   padding: 15px;
 }
@@ -79,8 +113,8 @@ code {
 }
 
 .insertForm{
-  background-color: #F9FAFB;
-  border: 1px solid #cccccc;
+  background-color: 2bdb9569;
+  border: 1px solid 2bdb9569;
   padding: 10px;
 }
 
@@ -94,6 +128,7 @@ code {
 }
 
 .insertForm input {
+  border-radius: 20px;
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -102,11 +137,11 @@ code {
 
 .insertForm [type="submit"] {
   margin-top: 5px;
-  background: #1F2937;
-  color: #ffffff;
+  background: #2bdb95c9;
+  color:  #027245;
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
-  border-radius: 2px;
+  border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
@@ -121,7 +156,7 @@ code {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 3px 5px;
   outline: none;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 .red-btn,
 .green-btn{
